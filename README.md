@@ -32,3 +32,4 @@ npm run dev
 ```sh
 npm run build
 ```
+J'ai fais le tp avec Othmane durant le cours
