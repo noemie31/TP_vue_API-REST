@@ -4,7 +4,7 @@ import CategorieView from '../views/CategorieView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-    // Associe des chemins d'accès au composant vue à afficher
+  // Associe des chemins d'accès au composant vue à afficher
   routes: [
     {
       path: '/',
@@ -23,6 +23,12 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
+    },
+
+    {
+      path: '/produits',
+      name: 'produits',
+      component: () => import('../views/ProductView.vue')
     }
   ]
 })

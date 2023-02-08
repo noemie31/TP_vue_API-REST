@@ -100,6 +100,7 @@ function deleteEntity(entityRef) {
 // A l'affichage du composant, on affiche la liste
 onMounted(chargeCategories);
 
+
 </script>
 
 
